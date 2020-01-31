@@ -38,4 +38,4 @@ class ForgetPassword extends Component {
     )
   }
 }
-export default ForgetPassword;
+export default ForgetPassword_SetNewPassword;
