@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class LoginForm extends React.Component {
+class LoginForm extends Component {
   render() {
     return (
       <section className="section container">
@@ -8,25 +8,26 @@ class LoginForm extends React.Component {
           <div className="column is-half">
             <form>
               <div className="field">
-                <label className="label">Email</label>
+                <label className="label"></label>
                 <div className="control">
-                  <input className="input" type="email" name="email" />
+                  <input className="input" type="email" name="email" placeholder="Email" />
                 </div>
               </div>
 
               <div className="field">
-                <label className="label">Password</label>
+                <label className="label"></label>
                 <div className="control">
-                  <input className="input" type="password" name="password" />
+                  <input className="input" type="password" name="password" placeholder="Password"/>
                 </div>
               </div>
 
               <div className="field is-grouped">
                 <div className="control">
-                  <button className="button is-link">Submit</button>
-                </div>
+                    <button className="button is-link">Submit</button>
+                    <button className="button is-text">Cancel</button>
+              </div>
                 <div className="control">
-                  <button className="button is-text">Cancel</button>
+
                 </div>
               </div>
             </form>

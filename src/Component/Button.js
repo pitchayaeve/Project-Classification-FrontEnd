@@ -2,6 +2,13 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import "./Button.css"
 
+/*
+- Primary button
+- Button
+- process button basic
+- process button onchange
+*/
+
 const Button = styled.button`
     font-family : sans-serif;
     font-size : 1 rem;
