@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import Button from "../Component/Button"
 
-export default class 1Home extends Component {
+export default class App extends Component {
     render() {
         return (
             <div>
@@ -9,3 +10,4 @@ export default class 1Home extends Component {
         )
     }
 }
+export default Home
