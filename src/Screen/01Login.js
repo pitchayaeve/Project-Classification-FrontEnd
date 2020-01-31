@@ -7,6 +7,7 @@ class LoginForm extends Component {
       <section className="section container">
         <div className="columns is-centered">
           <div className="column is-half">
+            <div>Welcome , Please Log In</div>
           <form>
 
                 <div className="field">
@@ -25,8 +26,10 @@ class LoginForm extends Component {
 
                 <div className="field is-grouped">
                     <div className="control">
-                        <Button className="button is-link">Submit</Button>
-                        <Button className="button is-text">Cancel</Button>
+                        <Button className="button is-link">Log in</Button>
+                        <Button className="button is-link">Forget password?</Button>
+                        <Button className="button is-link">Don' have an account yet? Register</Button>
+
                     </div>
                 </div>
           </form>

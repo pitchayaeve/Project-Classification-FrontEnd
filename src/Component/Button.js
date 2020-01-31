@@ -5,6 +5,7 @@ import "./Button.css"
 /*
 - Primary button
 - Button
+- Button no outline
 - process button basic
 - process button onchange
 */
