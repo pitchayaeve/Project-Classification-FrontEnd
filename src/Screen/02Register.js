@@ -7,7 +7,7 @@ class Register extends Component {
             <section className="section container">
               <div className="columns is-centered">
                 <div className="column is-half">
-                  <div>Welcome , Please Log In</div>
+                  <div>Register</div>
                 <form>
       
                       <div className="field">
