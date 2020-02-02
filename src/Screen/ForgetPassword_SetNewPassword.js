@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Button from "../Component/Button"
 
-class ForgetPassword extends Component {
+class ForgetPassword_SetN extends Component {
   render() {
     return (
       <section className="section container">
@@ -38,4 +38,4 @@ class ForgetPassword extends Component {
     )
   }
 }
-export default ForgetPassword_SetNewPassword;
+export default ForgetPassword_SetN;

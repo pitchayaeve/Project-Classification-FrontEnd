@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Screen/ForgetPassword_SetNewPassword';
+import App from './Screen/ForgetPassword_SendEmail';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
