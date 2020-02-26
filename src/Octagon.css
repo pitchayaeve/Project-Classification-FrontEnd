@@ -1,0 +1,120 @@
+/* .trapezoid 
+{
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 100px;
+} */
+/* .parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: red;
+  } */
+.trapezoidup {
+  border-bottom: 100px solid red;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  /* height: 200px; */
+  width: 200px;
+}
+.trapezoiddown {
+  border-bottom: 100px solid red;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 200px;
+  width: 200px;
+  left: 50%;
+  transform: rotate(180deg);
+  padding: 300 px;
+}
+.trapezoidright {
+  border-bottom: 100px solid red;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+
+  width: 200px;
+  transform: rotate(-90deg);
+}
+.trapezoidleft {
+    border-bottom: 100px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+
+    width: 200px;
+    transform: rotate(90deg);
+  }
+  .trapezoidupleft {
+    border-bottom: 100px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+
+    width: 200px;
+    transform: rotate(135deg);
+  }
+  .trapezoiddownleft {
+    border-bottom: 100px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+
+    width: 200px;
+    transform: rotate(45deg);
+  }
+  .trapezoidupright {
+    border-bottom: 100px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+
+    width: 200px;
+    transform: rotate(-135deg);
+  }
+  .trapezoiddownright {
+    border-bottom: 100px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+
+    width: 200px;
+    transform: rotate(-45deg);
+  }
+
+.octagon {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+}
+
+.octagon:before {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 29px solid red;
+  border-left: 29px solid #eee;
+  border-right: 29px solid #eee;
+}
+.octagon:after {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid red;
+  border-left: 29px solid #eee;
+  border-right: 29px solid #eee;
+}
+/* .trapezoid {
+    width: 200;
+    height: 0;
+    border-Bottom-Width: 100;
+    border-Bottom-Color: 'red';
+    border-Left-Width: 50;
+    border-Left-Color: 'transparent';
+    border-Right-Width: 50;
+    border-Right-Color: 'transparent';
+    border-Style: 'solid';
+  }  */
