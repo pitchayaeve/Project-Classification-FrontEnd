@@ -1,0 +1,11 @@
+.Header {
+    color: white;
+    font: 2.5em;
+    background-Color:  #007bff;
+    display: flex;
+    text-align: center;
+    padding: auto 1rem ;
+    z-index: 1;
+    align-Items: center;
+    justify-Content: center;
+  }

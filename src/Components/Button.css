@@ -1,0 +1,29 @@
+/*notwork 
+10/2/2020 : 6:52 pm
+*/
+
+.btn{
+    font: '200px';
+    border-Radius: '5px';
+    padding:'1rem';
+    margin: '20px';
+}
+/*button_bluebg*/
+.bluein{
+  color: '#FFFFFF';
+  background-Color: 'dodgerblue';
+  border:'dodgerblue';
+}
+
+/*button-outline_blue*/
+.blueout{
+
+  color: 'dodgerblue';
+  background-Color: '#FFFFFF';
+  border:'solid dodgerblue';
+}
+/*button-outline_blue=hover*/
+.bluein:hover{
+    color: '#FFFFFF';
+    background-Color: 'dodgerblue';
+}
